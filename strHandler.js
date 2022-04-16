@@ -11,5 +11,3 @@ for (let k in o) {
   n = o[k] > n ? o[k] : n
 }
 console.log(n, o);
- git config--global user.email "you@example.com"
- git config--global user.name "Your Name"
