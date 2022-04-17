@@ -1,5 +1,5 @@
 // 返回字符串中字符最多的字符以及数量
-() => {
+function tohandlerstr()  {
   let str = 'dshfsdjflsdjflsjf'
   let o = {}
   // 整理字符串
@@ -18,10 +18,11 @@
     }
   }
   console.log(t, n);
+  return {t,n}
 }
 
 // 第1个人10，第2个比第1个人大2岁，依次递推，请用递归方式计算出第8个人多大？
-() => {
+function toComAge()  {
   let num = 8;
 
   function fu(n) {
@@ -32,10 +33,11 @@
   }
   fu(num);
   console.log(fu(num))
+  return fu(num);
 }
 
 // 将‘20584’转化成‘二万零五百八十四’
-() => {
+function toChangNum() {
   let numList = ['零', '一', '二', '三', '四', '五', '六', '七', '八', '九'];
   let list = ['十', '百', '千', '万'];
   let numStr = '20008';
@@ -58,4 +60,5 @@
     }
   }
   console.log(str);
+  return str;
 }
