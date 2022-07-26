@@ -17,17 +17,17 @@
 |[F4-VUE面试题](#f4)|-|
 |[F5-npm相关](#f5)|-|
 |[F6-git相关](#f6)|-|
+
+
 *************************************************************
 
 ## <span style='color:#ffaa25;font-size:18px;font-weight:700'>模块内容</span>
-*************************************************************
 ### <p style='color:#ff8080;font-size:18px;font-weight:700'>CODE (前缀为‘Cx-’，属于代码相关文件夹)</p>
 
 #### <span style='color:#00ff80;font-size:18px;font-weight:700' id='codes'>C1-codes（单一方法代码） </span>----[模块列表](#mdlist)
 
 > 这一部分，我准备就是去整理一些需要进行代码编写的面试题，用来提升自己的逻辑开发能力。下表就是一个清单。
 ##### <span style='font-size:16px;font-weight:400'> 面试相关（[`interviewQuestion.js`](/C1-Codes/js/interviewQuestion.js)）</span>
-
 |序号|问题|方法|重点|
 |:-:|:-:|:-:|-|
 |1|返回字符串中字符最多的字符以及数量| `tohandlerstr`||
@@ -36,13 +36,13 @@
 |4|数组中任意三项和等于10|`toCompuSum`||
 |5|第1个人10，第2个比第1个人大2岁，依次递推，请用递归方式计算出第8个人多大？|`toComAge`||
 |6|实现一个函数，能够对任意长度的版本号字符串进行从小到大的排序|`sortVersions`||
-##### <span style='font-size:16px;font-weight:400'> 算法相关（[`JSAlgorithm.js`](/C1-Codes/js/jsAlgorithm.js)）</span>
 
+
+##### <span style='font-size:16px;font-weight:400'> 算法相关（[`JSAlgorithm.js`](/C1-Codes/js/jsAlgorithm.js)）</span>
 |序号|算法名称|方法名称|
 |:-:|:-:|:-:|
 |1|冒泡排序|`bubbleSort`|
 
-----
 
 ##### <p style='font-size:16px;font-weight:400'>函数防抖与函数节流 ([`funStabAndThrot.js`](/C1-Codes/js/funStabAndThrot.js))</p>
 |序号|方法|名称|
@@ -51,17 +51,18 @@
 |2|`debounce`|函数防抖|
 |3|`throttle`|函数节流|
 
+
 #### <span style='color:#00ff80;font-size:18px;font-weight:700' id='modules'>C2-modules（代码模块）</span>----[模块列表](#mdlist) 
 
 |序号|文件名称|解释内容|补充内容|是否完成Y/N|
 |:-:|:-:|:-:|:-:|:-:|
 |1|||||
 
+
 *************************************************************
 ### <p style='color:#ff8080;font-size:18px;font-weight:700'>Files （前缀为‘Fx-’，属于文档文件夹，以部分常见面试题为主）</p>
 
 #### <span style='color:#00ff80;font-size:18px;font-weight:700' id='f1'>F1-浏览器相关面试</span>----[模块列表](#mdlist)
-
 |序号|文件名称|解释内容|补充内容|状态|
 |:-:|:-:|:-:|:-:|:-:|
 |1|[浏览器性能优化](/F1-浏览器相关面试题/浏览器性能优化方法.md)|||N|
@@ -69,22 +70,20 @@
 
 
 #### <span style='color:#00ff80;font-size:18px;font-weight:700' id='f2'>F2-CSS面试题 </span> ----[模块列表](#mdlist)
-
 |序号|文件名称|解释内容|补充内容|状态|
 |:-:|:-:|:-:|:-:|:-:|
 |1|[css相关小知识点](F2-CSS面试题/css相关小知识点.md)|||continue|
 
 
 #### <span style='color:#00ff80;font-size:18px;font-weight:700' id='f3'>F3-JS面试题</span> ----[模块列表](#mdlist)
-
 |序号|文件名称|解释内容|补充内容|状态|
 |:-:|:-:|:-:|:-:|:-:|
 |1|[函数防抖](/F3-JS面试题/1-函数防抖与函数节流/函数防抖.md)与[函数节流](/F3-JS面试题/1-函数防抖与函数节流/函数节流.md)|||N|
 |2|深克隆与浅克隆|||N|
 
 
-#### <span style='color:#00ff80;font-size:18px;font-weight:700' id='f4'>F4-VUE面试题</span> ----[模块列表](#mdlist)
 
+#### <span style='color:#00ff80;font-size:18px;font-weight:700' id='f4'>F4-VUE面试题</span> ----[模块列表](#mdlist)
 |序号|文件名称|解释内容|补充内容|状态|
 |:-:|:-:|:-:|:-:|:-:|
 |1|vue生命周期|||N|
@@ -94,14 +93,14 @@
 |5|keep-alive|||N|
 |6|vue自定义指令|||N|
 
-#### <span style='color:#00ff80;font-size:18px;font-weight:700' id='f5'>F5-npm相关</span> ----[模块列表](#mdlist) 
 
+#### <span style='color:#00ff80;font-size:18px;font-weight:700' id='f5'>F5-npm相关</span> ----[模块列表](#mdlist) 
 |序号|文件名称|解释内容|补充内容|状态|
 |:-:|:-:|:-:|:-:|:-:|
 |1|[npm相关命令](/F5-npm相关/npm相关命令.md)|||continue|
 
-#### <span style='color:#00ff80;font-size:18px;font-weight:700' id='f6'>F6-git相关</span>----[模块列表](#mdlist) 
 
+#### <span style='color:#00ff80;font-size:18px;font-weight:700' id='f6'>F6-git相关</span>----[模块列表](#mdlist) 
 |序号|文件名称|解释内容|补充内容|状态|
 |:-:|:-:|:-:|:-:|:-:|
 |1|[git相关命令](/F6-Git相关/git相关命令.md)|||continue|
