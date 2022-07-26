@@ -1,0 +1,18 @@
+# <span id='top' style='font-size:22px;color:#ff8000;'>文档模板</span><sub style='font-size:15px;'>[（返回README）](/README.md)</sub>
+> 介绍
+## <span style='font-size:18px;color:#ff8080;'>原理</span>
+> 原理是：
+## <span style='font-size:18px;color:#ff8080;'>实现代码</span>
+
+```JavaScript
+```
+## <span style='font-size:18px;color:#ff8080;'>使用场景</span>
+> 原理是：
+##  <span style='font-size:18px;color:#ff8080;'>例子</span>
+> 原理是：
+-----
+[返回顶部](#top)<br/>
+[返回README](/README.md)
+## <span style='font-size:18px;color:#ff8080;'>参考链接</span>
+
+- xxxx : <https://xxx@163.com>
