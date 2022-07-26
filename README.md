@@ -1,62 +1,116 @@
-### <span style='color:#ffc770;font-size:22px;font-weight:700'>介绍（interview-question-uuuvvv）</span>
-#### <span style='color:#ffaa25;font-size:18px;font-weight:700'>目的</span>
-      通过最近的诸多面试，处处碰壁，有时候甚至怀疑自己的编码能力是不是真的有问题？各种原理，各种算法，各种插件库，还有各种模式等，让我蒙上加蒙。与其那么蒙，还不如在在这儿积累一下，尽管可能积累了还是会忘记，但是不积累，不去学习，或许永远都不知道那个问题的正确答案是什么样子吧。
-      同时也希望这个库，可以能够帮助更多像我这样的处境的人吧，可能写的地方不太好，还望能有大佬指教，共同进步。
-
-#### <span style='color:#ffaa25;font-size:18px;font-weight:700'>文件夹</span>
+### <span style='color:#ffc770;font-size:22px;font-weight:700' id='top'>面试题库(interview-question-uuuvvv)</span>
 *********************************************************************
-#### <p style='color:#ff8080;font-size:18px;font-weight:700'>code (前缀为‘Cx-’，属于代码相关文件夹)</p>
-##### <p style='font-size:18px;font-weight:700'>C1-codes（单一方法代码）</p> 
-|序号|文件名称|解释内容|补充内容|是否完成Y/N|
-|:-:|:-:|:-:|:-:|:-:|
-|1||||N|
+#### <span style='color:#ffaa25;font-size:18px;font-weight:700'>目的</span>
 
+> 通过最近的诸多面试，处处碰壁，有时候甚至怀疑自己的编码能力是不是真的有问题？各种原理，各种算法，各种插件库，还有各种模式等，让我蒙上加蒙。与其那么蒙，还不如在在这儿积累一下，尽管可能积累了还是会忘记，但是不积累，不去学习，或许永远都不知道那个问题的正确答案是什么样子吧。<br/>
+> 同时也希望这个库，可以能够帮助更多像我这样的处境的人吧，可能写的地方不太好，还望能有大佬指教，共同进步。
+*************************************************************
 
-##### <p style='font-size:18px;font-weight:700'>C2-modules（代码模块）</p> 
+#### <span style='color:#ffaa25;font-size:18px;font-weight:700' id='mdlist'>模块列表</span>
+|模块名称|介绍|
+|:-:|:-:|
+|[C1-codes（单一方法代码）](#codes)|单独的代码片段|
+|[C2-modules（代码模块）](#modules)|具有一定功能的代码块|
+|[F1-浏览器相关面试](#f1)|-|
+|[F2-CSS面试题](#f2)|-|
+|[F3-JS面试题](#f3)|-|
+|[F4-VUE面试题](#f4)|-|
+|[F5-npm相关](#f5)|-|
+|[F6-git相关](#f6)|-|
+*************************************************************
+
+#### <span style='color:#ffaa25;font-size:18px;font-weight:700'>模块内容</span>
+*************************************************************
+#### <p style='color:#ff8080;font-size:18px;font-weight:700'>CODE (前缀为‘Cx-’，属于代码相关文件夹)</p>
+
+##### <span style='color:#00ff80;font-size:18px;font-weight:700' id='codes'>C1-codes（单一方法代码） </span>----[模块列表](#mdlist)
+
+> 这一部分，我准备就是去整理一些需要进行代码编写的面试题，用来提升自己的逻辑开发能力。下表就是一个清单。
+> 
+### <span style='font-size:16px;font-weight:400'> 面试相关（[`interviewQuestion.js`](/C1-Codes/js/interviewQuestion.js)）</span>
+
+|序号|问题|方法|重点|
+|:-:|:-:|:-:|-|
+|1|返回字符串中字符最多的字符以及数量| `tohandlerstr`||
+|2|将‘20584’转化成‘二万零五百八十四’| `toChangNum`||
+|3|如何解决js中0.1+0.2不等于0.3的问题| `toHandlerC`||
+|4|数组中任意三项和等于10|`toCompuSum`||
+|5|第1个人10，第2个比第1个人大2岁，依次递推，请用递归方式计算出第8个人多大？|`toComAge`||
+|6|实现一个函数，能够对任意长度的版本号字符串进行从小到大的排序|`sortVersions`||
+### <span style='font-size:16px;font-weight:400'> 算法相关（[`JSAlgorithm.js`](/C1-Codes/js/jsAlgorithm.js)）</span>
+
+|序号|算法名称|方法名称|
+|:-:|:-:|:-:|
+|1|冒泡排序|`bubbleSort`|
+
+----
+
+#### <p style='font-size:16px;font-weight:400'>函数防抖与函数节流 ([`funStabAndThrot.js`](/C1-Codes/js/funStabAndThrot.js))</p>
+|序号|方法|名称|
+|:-:|:-:|:-:|
+|1|`stabilFn`|函数防抖|
+|2|`debounce`|函数防抖|
+|3|`throttle`|函数节流|
+
+##### <span style='color:#00ff80;font-size:18px;font-weight:700' id='modules'>C2-modules（代码模块）</span>----[模块列表](#mdlist) 
+
 |序号|文件名称|解释内容|补充内容|是否完成Y/N|
 |:-:|:-:|:-:|:-:|:-:|
 |1|||||
 
-*********************************************************************
-#### <p style='color:#ff8080;font-size:18px;font-weight:700'>files （前缀为‘Fx-’，属于文档文件夹，以部分常见面试题为主）</p>
+*************************************************************
+#### <p style='color:#ff8080;font-size:18px;font-weight:700'>Files （前缀为‘Fx-’，属于文档文件夹，以部分常见面试题为主）</p>
 
-##### <p style='font-size:18px;font-weight:700'>F1-浏览器相关面试</p>
+##### <span style='color:#00ff80;font-size:18px;font-weight:700' id='f1'>F1-浏览器相关面试</span>----[模块列表](#mdlist)
 
-|序号|文件名称|解释内容|补充内容|是否完成Y/N|
+|序号|文件名称|解释内容|补充内容|状态|
 |:-:|:-:|:-:|:-:|:-:|
-|1|1-浏览器性能优化|||N|
+|1|[浏览器性能优化](/F1-浏览器相关面试题/浏览器性能优化方法.md)|||N|
 ||||||
 
 
-##### <p style='font-size:18px;font-weight:700'>F2-CSS面试题</p> 
+##### <span style='color:#00ff80;font-size:18px;font-weight:700' id='f2'>F2-CSS面试题 </span> ----[模块列表](#mdlist)
 
-|序号|文件名称|解释内容|补充内容|是否完成Y/N|
+|序号|文件名称|解释内容|补充内容|状态|
 |:-:|:-:|:-:|:-:|:-:|
-|1|[函数防抖与函数节流](/F3-JS%E9%9D%A2%E8%AF%95%E9%A2%98/1-%E5%87%BD%E6%95%B0%E9%98%B2%E6%8A%96%E4%B8%8E%E5%87%BD%E6%95%B0%E8%8A%82%E6%B5%81/%E5%87%BD%E6%95%B0%E8%8A%82%E6%B5%81.md)|||N|
+|1|[css相关小知识点](F2-CSS面试题/css相关小知识点.md)|||continue|
+
+
+##### <span style='color:#00ff80;font-size:18px;font-weight:700' id='f3'>F3-JS面试题</span> ----[模块列表](#mdlist)
+
+|序号|文件名称|解释内容|补充内容|状态|
+|:-:|:-:|:-:|:-:|:-:|
+|1|[函数防抖](/F3-JS面试题/1-函数防抖与函数节流/函数防抖.md)与[函数节流](/F3-JS面试题/1-函数防抖与函数节流/函数节流.md)|||N|
 |2|深克隆与浅克隆|||N|
 
 
-##### <p style='font-size:18px;font-weight:700'>F3-JS面试题</p> 
+##### <span style='color:#00ff80;font-size:18px;font-weight:700' id='f4'>F4-VUE面试题</span> ----[模块列表](#mdlist)
 
-|序号|文件名称|解释内容|补充内容|是否完成Y/N|
-|:-:|:-:|:-:|:-:|:-:|
-|1|函数防抖与函数节流|||N|
-|2|深克隆与浅克隆|||N|
-
-
-##### <p style='font-size:18px;font-weight:700'>F4-VUE面试题</p> 
-
-|序号|文件名称|解释内容|补充内容|是否完成Y/N|
+|序号|文件名称|解释内容|补充内容|状态|
 |:-:|:-:|:-:|:-:|:-:|
 |1|vue生命周期|||N|
 |2|vue组件间通信|||N|
 |3|MVVM实现原理|||N|
-|4|$Route与$Router的区别|||N|
+|4|$ Route 与 $ Router的区别|||N|
 |5|keep-alive|||N|
 |6|vue自定义指令|||N|
 
+##### <span style='color:#00ff80;font-size:18px;font-weight:700' id='f5'>F5-npm相关</span> ----[模块列表](#mdlist) 
 
-*********************************************************************
+|序号|文件名称|解释内容|补充内容|状态|
+|:-:|:-:|:-:|:-:|:-:|
+|1|[npm相关命令](/F5-npm相关/npm相关命令.md)|||continue|
+
+##### <span style='color:#00ff80;font-size:18px;font-weight:700' id='f6'>F6-git相关</span>----[模块列表](#mdlist) 
+
+|序号|文件名称|解释内容|补充内容|状态|
+|:-:|:-:|:-:|:-:|:-:|
+|1|[git相关命令](/F6-Git相关/git相关命令.md)|||continue|
+
+*************************************************************
+[返回模块列表](#mdlist) <br/>
+[返回顶部](#top)
+
 <p style='color:red;font-size:15px;font-weight:700'>TODO：此处只是外部文件夹得介绍，后期等问题积累的多了，可能会写成层级介绍，现在不会！</p>
 <p style='color:red;font-size:15px;font-weight:700'>注:文件都是自己原创，内容有雷同者，敬请谅解，如有引用，我会标注借鉴链接。</p>
 <p style='color:green;font-size:15px;font-weight:700'>最后希望能有所收益吧。</p>

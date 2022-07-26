@@ -1,9 +1,9 @@
-### npm命令相关
+### npm命令相关----[返回README](/README.md)<span id='top'></span>
 
 <span style='color:red'>注释1：点击下表中的命令名称，可直接跳转到对应命令所在位置</span>
 <p style='color:red'>注释2：所有命令排名不分先后</p>
 
-| <span id='back'>命令链接表</span> |
+| <span id='back'>命令链接表</span> [返回README](/README.md)|
 |:-:|
 |[查看镜像配置地址](#1)|
 |[设置淘宝镜像](#2)|
@@ -128,3 +128,6 @@ npm ls xxx
 <!-- 全局查询 -->
 npm ls xxx -g 
 ```
+[返回表](#back)<br/>
+[返回顶部](#top)<br/>
+[返回README](/README.md)
