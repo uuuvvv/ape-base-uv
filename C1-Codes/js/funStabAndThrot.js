@@ -23,6 +23,8 @@ function debounce (callBack, delay) {
     }, delay)
   }
 }
+
+
 // 函数节流(Functional throttle)
 // 函数节流的原理：当持续触发同一事件时，再执行一次后，在一定的时间内不在触发，在时间之后，才可以再次触发。
 // 应用场景：拖拽事件，滚动事件，射击游戏子弹的发射时间
