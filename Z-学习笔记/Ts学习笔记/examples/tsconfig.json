@@ -1,0 +1,21 @@
+
+// ts 编辑器的默认配置文件 
+{
+    // include 指定哪些ts文件需要编译。**任意目录；*任意文件
+    "include":[
+        "./*"
+    ],
+    // 指定哪些文件不进行编译，默认:["node_modules","bower_components",‘jspm_packages“]
+    "exclude": [],
+    // 定义被继承的配置文件
+    // "extends": "",
+    "compilerOptions":{
+        "strict":true, //启用严格模式
+        "target":"es5", //用来指定ts被编译成ES的版本
+        // "module": "es6",// 自定哪种版本的模块化 “--module”选项的参数必须为 'none', 'commonjs', 'amd', 'system', 'umd', 'es6', 'es2015', 'es2020', 'es2022', 'esnext', 'node16', 'nodenext'。支持的版本如："CommonJS", "AMD", "System", "UMD", "ES6", "ES2015", "ES2020", "ESNext", "None", "ES2022", "Node16", "NodeNext".(1)
+        "lib": ["ES6","DOM"], //用来指定项目中使用的库
+        "outDir": "js",  //用于指定编译后js文件的所在目录
+    },
+
+    
+}

@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "typescript",
+			"tsconfig": "Z-学习笔记/Ts学习笔记/examples/tsconfig.json",
+			"problemMatcher": [
+				"$tsc"
+			],
+			"group": "build",
+			"label": "tsc: 构建 - Z-学习笔记/Ts学习笔记/examples/tsconfig.json"
+		}
+	]
+}
