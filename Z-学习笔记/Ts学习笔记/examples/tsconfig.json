@@ -15,6 +15,7 @@
         // "module": "es6",// 自定哪种版本的模块化 “--module”选项的参数必须为 'none', 'commonjs', 'amd', 'system', 'umd', 'es6', 'es2015', 'es2020', 'es2022', 'esnext', 'node16', 'nodenext'。支持的版本如："CommonJS", "AMD", "System", "UMD", "ES6", "ES2015", "ES2020", "ESNext", "None", "ES2022", "Node16", "NodeNext".(1)
         "lib": ["ES6","DOM"], //用来指定项目中使用的库
         "outDir": "js",  //用于指定编译后js文件的所在目录
+        "strictNullChecks": true,
     },
 
     
