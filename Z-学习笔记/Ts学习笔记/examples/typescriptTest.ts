@@ -20,3 +20,26 @@ class C {
     // 必须使用 static 和 readonly 修饰符
     static readonly c: unique symbol = Symbol();
 }
+
+// 数值型枚举
+enum Direction {
+    Up,
+    Down,
+    Left,
+    Right
+}
+const direction:Direction = Direction.Up;
+
+// 字符串枚举
+
+enum Dir {
+    Up = 'up',
+    Down = 'down',
+    Left = 'left',
+    Right = 'right',
+
+    u = Up,
+    d = Down,
+    l = Left,
+    r = Right
+}
